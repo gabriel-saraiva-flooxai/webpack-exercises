@@ -1,1 +1,6 @@
-body{background-color:indigo}.botao{background-color:#19b3e6;color:#fff;font-size:1.8rem}
+/*!********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/css/estilo.css ***!
+  \********************************************************************************************************************/body{background-color:indigo;background-image:url(images/public-logo.png);background-position:50%;background-repeat:no-repeat;height:100vh}
+/*!*********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/scss/index.scss ***!
+  \*********************************************************************************************************************/.botao{background-color:#19b3e6;color:#fff;font-size:1.8rem}

@@ -31,7 +31,12 @@ module.exports = {
                 // 'style-loader', // Adiciona CSS a DOM injetando a tag <style>
                 'css-loader', // Interpreta @import, url()...
                 'sass-loader',
-            ]
+            ]}, {
+            test: /\.(png|jpe?g|gif|svg)$/i,
+            type: 'asset/resource',
+            generator: {
+                filename: 'images/[name][ext]'
+            }
         }]
     }
 }
