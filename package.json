@@ -1,0 +1,16 @@
+{
+  "name": "webpack-exercises",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "webpack": "^5.99.8",
+    "webpack-cli": "^6.0.1"
+  }
+}
