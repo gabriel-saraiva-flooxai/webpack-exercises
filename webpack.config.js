@@ -9,7 +9,15 @@ module.exports = {
     entry: './src/principal.js',
     output: {
         filename: 'principal.js',
-        path: __dirname + '/public'
+        path: __dirname + 'public'
+    },
+    devServer: {
+        static: {
+            directory: __dirname + '/public'
+        },
+        port: 9000,
+        open: true,
+        hot: true
     },
     optimization: {
         minimize: true,
